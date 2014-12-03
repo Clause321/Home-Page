@@ -1,0 +1,532 @@
+body, html{
+	position: relative;
+	height: 100%;
+	margin: 0;
+}
+
+.block{
+	border-bottom: 2px solid #dce0e0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+.block_odd{
+	background-color: #f5f5f5;
+}
+
+.block_even{
+	background-color: white;
+}
+
+.header{
+	float: left;
+	width: 100%;
+	//height: 100px;
+}
+
+.navi{
+	float: left;
+	width: 100%;
+	background-color: #565a5c;
+	height: 44px;
+	position: fixed;
+	z-index: 1;
+}
+
+.navi_container{
+	position: relative;
+	display: block;
+	width: 1200px;
+	margin: auto;
+	height: 100%;
+}
+
+.navi_center{
+	//clear: all;
+	height: 100%;
+	width: 660px;
+	margin: auto;
+}
+
+.navi_center li{
+	float: left;
+	display: inline-block;
+	//height: 100%;
+	width: 120px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+}
+
+.navi a{
+	display: block;
+	height: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	color: #cacccd;
+	cursor: no-drop;
+}
+
+.navi a:hover{
+	color: rgb(40, 180, 0);
+}
+
+.navi_center .navi_selected a{
+	color: #fff;
+	cursor: default;
+}
+
+.navi_home{
+	float: right;
+	width: 44px;
+	height: 100%;
+	margin-top: -44px;
+}
+
+.container{
+	padding-top: 44px;
+	width: 1200px;
+	margin: auto;
+	//height: 100%;
+	overflow: hidden; 
+	position: relative;
+}
+
+#catlog{
+	width: 128px;
+	border-right-width: 2;
+	border-right-style: solid;
+	padding-top: 140px;
+	float: left;
+	//height: 100%;
+	//position: relative;
+	bottom: 0;
+	top: 44px;
+	z-index: 2;
+}
+
+.unfixed{
+	position: absolute;
+}
+
+.fixed{
+	position: fixed;
+	//top: 0;
+}
+
+#catlog > div{
+	text-align: center;
+}
+
+#catlog_w{
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.catlog_x{
+	opacity: 0;
+	height: 60px;
+	line-height: 50px;
+}
+
+.catlog_wrapper{
+	text-decoration: none;
+	//color: black;
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.catlog_wrapper > div{
+	display: inline-block;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+.catlog_bigger{
+	width: 120px;
+}
+
+#catlog_embedded_system .catlog_middle span{
+	display: block;
+	font-size: 0.7em;
+	line-height: 1em;
+}
+
+#project_container{
+	width: 1000px;
+	float: right;
+
+	margin-bottom: -50px;
+	padding-bottom: 200px;
+	//height: 100%;
+	position: relative;
+}
+
+.project_section{
+	border-bottom: 2px solid #dce0e0;
+}
+
+.project_section h2{
+	margin-left: 25px;
+}
+
+.portfolio_project{
+	padding-right: 25px;
+	padding-left: 25px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+table, tr, td{
+	padding: 0px;
+	position: relative;
+}
+
+table{
+	cell-space: 0px;
+}
+
+table div{
+	border-color: gray;
+}
+
+.project_duration{
+	
+}
+
+.project_duration{
+	height: 100%;
+	width: 70%;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-right: -1px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	line-height: 0.6em;
+	font-size: 1.2em;
+	float: right;
+}
+
+.project_duration span{
+	float: right;
+	display: block;
+}
+
+.project_month{
+	font-size: 0.8em;
+}
+
+.project_year{
+	font-size: 0.5em;
+}
+
+.project_to{
+	width: 0px;
+	margin: auto;
+	margin-bottom: 0.1em;
+	border-left-style: solid;
+	border-left-width: 1px;
+	height: 0.4em;
+}
+
+.project_upperborder{
+	width: 70%;
+	position: absolute;
+	bottom: 0px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.project_leftborder{
+	position: absolute;
+	height: 100%;
+	width: 20%;
+	right: -1px;
+	bottom: 0px;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.project_lowerleftborder{
+	position: absolute;
+	height: 60%;
+	width: 15%;
+	right: -1px;
+	top: 0px;
+	border-right-style: solid;
+	border-right-width: 1px;
+}
+
+.project_main{
+	top: 0px;
+	width: 97.5%;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-left: 1.5%;
+	padding-right: 1%;
+	padding-top: 1.5%;
+	padding-bottom: 2%;
+}
+
+.project_title{
+	width: 100%;
+	margin-bottom: 0.6em;
+	font-size: 1.3em;
+}
+
+.project_abstract{
+	width: 100%;
+	margin: 0px;
+}
+
+.project_tech{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	padding-left: 4px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.project_techborder{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	top: 40%;
+	border-left-style: solid;
+	border-left-width: 1px;
+}
+
+.project_lang{
+	padding-right: 4px;
+	float: right;
+}
+
+.project_team{
+	padding-left: 4px;
+	position: relative;
+	//border-left-style: solid;
+	//border-left-width: 1px;
+}
+
+.project_teamborder{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 40%;
+	border-left-style: solid;
+	border-left-width: 1px;
+}
+
+#progress_container{
+	position: relative;
+	width: 1760px;
+	float: right;
+	height: 100%;
+	margin-right: -380px;
+}
+
+#progress_bar{
+	bottom: 0;
+	width: 1760px;
+	height: 100px;
+	margin-right: -380px;
+	//overflow: hidden;
+}
+
+#progress_left_block{
+	width: 380px;
+	height: 100%;
+	background-color: white;
+	z-index: 1;
+	position: absolute;
+	left: 0;
+}
+
+#progress_right_block{
+	width: 380px;
+	height: 100%;
+	background-color: white;
+	z-index: 1;
+	position: absolute;
+	right: 0;
+}
+
+#progress_long_bar{
+	background-color: rgba(255, 255, 255, 0.95);
+	position: relative;
+	width: 1380px;
+	height: 100%;
+	left: 380px;
+	bottom: 0px;
+	top: 0px;
+}
+
+.grab:hover{
+	cursor: -webkit-grab;
+}
+
+.grabbing:hover{
+	cursor: -webkit-grabbing;
+}
+
+#progress_long_bar svg{
+	position: absolute;
+}
+
+.progress_tree_wrapper{
+	height: 100%;
+}
+
+.progress_year_tree{
+	float: left;
+	display: block;
+	position: relative;
+	width: 76px;
+	height: 100%;
+	margin: 0;
+	list-style: none;
+}
+
+.progress_year_tree img{
+	//position: relative;
+	bottom: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.progress_year_tree div{
+	position: relative;
+	top: 0px;
+}
+
+.progress_tree{
+	float: left;
+	display: block;
+	position: relative;
+	width: 76px;
+	height: 100%;
+	margin: 0;
+	list-style: none;
+}
+
+.progress_tree:first-child{
+	margin-left: 6px;
+}
+
+.progress_tree img{
+	position: absolute;
+	bottom: 0px;
+	cursor: pointer;
+}
+
+.progress_wrapper{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.progress_pic{
+	position: relative;
+	height: 75%;
+	//width: 45px;
+	width: 100%;
+	margin: auto;
+}
+
+.progress_month{
+	height: 25%;
+	text-align: center;
+	padding-top: 2px;
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+.progress_tree .progress_balloon{
+	position: absolute;
+	bottom: 90px;
+	left: -15px;
+	width: 125px;
+	font-size: 13px;
+	background-color: rgba(255, 255, 255, 0.75);
+	//display: block;
+	
+	z-index: 4;
+}
+
+.progress_balloon span{
+	display: block;
+	text-align: center;
+}
+
+.progress_balloon .balloon_title{
+	font-size: 20px;
+}
+
+.progress_balloon .balloon_duration{
+	font-size: 9px;
+}
+
+.progress_balloon .balloon_catlog{
+	font-size: 18px;
+}
+
+.balloon_wrapper{
+	position: relative;
+	border-style: solid;
+	border-width: 1px;
+	border-color: green;
+	border-radius: 5px;
+}
+
+.balloon_tail{
+	position: absolute;
+	top: 100%;
+	left: 45%;
+	background-color: red;
+	width: 20px;
+	height: 20px;
+}
+
+.balloon_wrapper:after, .balloon_wrapper:before{
+	top: 100%;
+	left: 45%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+#footer{
+	background-color: white;
+	position: relative;
+	width: 100%;
+	height: 100px;
+	float: left;
+	z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

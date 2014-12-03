@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="270px" height="217px" viewBox="0 0 270 217" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 15</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-15" sketch:type="MSArtboardGroup">
+            <g id="Group-12" sketch:type="MSLayerGroup">
+                <circle id="Oval-257" fill="#9BD8F4" sketch:type="MSShapeGroup" cx="134.5" cy="11.5" r="11.5"></circle>
+                <path d="M202,39 C202,113.558441 141.558441,174 67,174 C67,99.4415588 127.441559,39 202,39 Z" id="Oval-4" fill="#FFD009" sketch:type="MSShapeGroup" transform="translate(134.500000, 106.500000) scale(-1, 1) rotate(-45.000000) translate(-134.500000, -106.500000) "></path>
+                <path d="M135,67 C135,141.558441 74.5584412,202 0,202 C0,127.441559 60.4415588,67 135,67 Z" id="Oval-5" fill="#F77328" sketch:type="MSShapeGroup" transform="translate(67.500000, 134.500000) scale(-1, 1) translate(-67.500000, -134.500000) "></path>
+                <path d="M270,67 C270,141.558441 209.558441,202 135,202 C135,127.441559 195.441559,67 270,67 Z" id="Oval-6" fill="#F6A623" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-379" fill="#8FBA46" sketch:type="MSShapeGroup" x="50" y="202" width="85" height="15"></rect>
+                <rect id="Rectangle-380" fill="#417505" sketch:type="MSShapeGroup" x="135" y="202" width="85" height="15"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

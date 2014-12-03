@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="330px" height="336px" viewBox="0 0 330 336" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 17</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-17" sketch:type="MSArtboardGroup">
+            <g id="Group-12" sketch:type="MSLayerGroup">
+                <polygon id="Triangle-1" fill="#FF8A9F" sketch:type="MSShapeGroup" points="164.719864 0 180.967742 164.366057 148.471986 164.366057 "></polygon>
+                <polygon id="Triangle-2" fill="#FF6E81" sketch:type="MSShapeGroup" transform="translate(164.719864, 245.990017) scale(-1, -1) translate(-164.719864, -245.990017) " points="164.719864 163.806988 180.967742 328.173045 148.471986 328.173045 "></polygon>
+                <polygon id="Triangle-3" fill="#FF6E81" sketch:type="MSShapeGroup" transform="translate(247.640068, 171.633943) scale(-1, -1) rotate(-90.000000) translate(-247.640068, -171.633943) " points="247.640068 89.4509151 263.887946 253.816972 231.39219 253.816972 "></polygon>
+                <polygon id="Triangle-4" fill="#F41937" sketch:type="MSShapeGroup" transform="translate(82.359932, 170.515807) scale(1, -1) rotate(-90.000000) translate(-82.359932, -170.515807) " points="82.3599321 88.3327787 98.6078098 252.698835 66.1120543 252.698835 "></polygon>
+                <polygon id="Triangle-5" fill="#F41837" sketch:type="MSShapeGroup" transform="translate(95.246180, 241.517471) scale(1, -1) rotate(-45.000000) translate(-95.246180, -241.517471) " points="95.24618 159.334443 111.494058 323.700499 78.9983022 323.700499 "></polygon>
+                <polygon id="Triangle-6" fill="#FF6E81" sketch:type="MSShapeGroup" transform="translate(234.193548, 246.549085) scale(-1, -1) rotate(-45.000000) translate(-234.193548, -246.549085) " points="234.193548 164.366057 250.441426 328.732113 217.945671 328.732113 "></polygon>
+                <polygon id="Triangle-7" fill="#FF8A9F" sketch:type="MSShapeGroup" transform="translate(234.193548, 111.813644) scale(-1, 1) rotate(-45.000000) translate(-234.193548, -111.813644) " points="234.193548 29.6306156 250.441426 193.996672 217.945671 193.996672 "></polygon>
+                <polygon id="Triangle-8" fill="#FF8A9F" sketch:type="MSShapeGroup" transform="translate(98.607810, 111.813644) rotate(-45.000000) translate(-98.607810, -111.813644) " points="98.6078098 29.6306156 114.855688 193.996672 82.3599321 193.996672 "></polygon>
+                <polygon id="Triangle-9" fill="#FFC5C9" sketch:type="MSShapeGroup" transform="translate(127.741935, 90.569052) rotate(-22.500000) translate(-127.741935, -90.569052) " points="127.741935 8.38602329 143.989813 172.75208 111.494058 172.75208 "></polygon>
+                <polygon id="Triangle-10" fill="#FFC5C9" sketch:type="MSShapeGroup" transform="translate(201.137521, 95.041597) scale(-1, 1) rotate(-22.500000) translate(-201.137521, -95.041597) " points="201.137521 12.8585691 217.385399 177.224626 184.889643 177.224626 "></polygon>
+                <polygon id="Triangle-11" fill="#FFAEB4" sketch:type="MSShapeGroup" transform="translate(201.137521, 253.816972) scale(-1, -1) rotate(-22.500000) translate(-201.137521, -253.816972) " points="201.137521 171.633943 217.385399 336 184.889643 336 "></polygon>
+                <polygon id="Triangle-16" fill="#FFAEB4" sketch:type="MSShapeGroup" transform="translate(133.904924, 242.076539) scale(1, -1) rotate(-22.500000) translate(-133.904924, -242.076539) " points="133.904924 159.893511 150.152801 324.259567 117.657046 324.259567 "></polygon>
+                <polygon id="Triangle-12" fill="#FFAEB4" sketch:type="MSShapeGroup" transform="translate(82.308449, 207.414309) scale(1, -1) rotate(-67.500000) translate(-82.308449, -207.414309) " points="82.3084492 125.231281 98.5563269 289.597338 66.0605714 289.597338 "></polygon>
+                <polygon id="Triangle-13" fill="#FFC5C9" sketch:type="MSShapeGroup" transform="translate(89.591981, 136.412646) rotate(-67.500000) translate(-89.591981, -136.412646) " points="89.5919806 54.2296173 105.839858 218.595674 73.3441028 218.595674 "></polygon>
+                <polygon id="Triangle-14" fill="#FFC5C9" sketch:type="MSShapeGroup" transform="translate(243.666683, 136.412646) scale(-1, 1) rotate(-67.500000) translate(-243.666683, -136.412646) " points="243.666683 54.2296173 259.914561 218.595674 227.418806 218.595674 "></polygon>
+                <polygon id="Triangle-15" fill="#FFAEB4" sketch:type="MSShapeGroup" transform="translate(242.546140, 210.209651) scale(-1, -1) rotate(-67.500000) translate(-242.546140, -210.209651) " points="242.54614 128.026622 258.794018 292.392679 226.298262 292.392679 "></polygon>
+                <ellipse id="Oval-348" fill="#F88E96" sketch:type="MSShapeGroup" cx="165.560272" cy="174.708819" rx="13.1663837" ry="13.1381032"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

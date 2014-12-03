@@ -1,0 +1,33 @@
+{% load project_tags %}
+{% load static %}
+{% for t in trees %}
+<li class="progress_tree{{ t.project_set.first|include:' real_tree' }}"
+           {% if t.project_set.first %}
+           href="#project_{{ t.project_set.first.id }}"
+           {% endif %}>
+    <div class="progress_wrapper">
+        <div class="progress_pic">
+            <img align="middle" src="{% static 'portfolio/img/' %}{{ t.project_set.first|get_tree }}" />
+        </div>
+        <div class="progress_month">
+            {{ t.date|date:'b'|upper }}
+        </div>
+        {% if t.project_set.first %}
+        <div class="progress_balloon" hidden="true">
+            <div class="balloon_wrapper">
+                <span class="balloon_title">
+                    {{ t.project_set.first.title }}
+                </span>
+                <span class="balloon_duration">
+                    {{ t.project_set.first.start_date|date:'b.y'|capfirst }}
+                    -
+                    {{ t.project_set.first.end_date|date:'b.y'|capfirst }}
+                </span>
+                <span class="balloon_catlog">#{{ t.project_set.first.type }}#</span>
+                <div class="balloon_tail"></div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</li>
+{% endfor %}

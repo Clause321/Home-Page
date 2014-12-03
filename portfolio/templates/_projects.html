@@ -1,0 +1,55 @@
+{% for p in projects %}
+<table class="portfolio_project" cellspacing="0" id="project_{{ p.id }}">
+    <tr class="r0">
+        <td class="00 c0" style="width: 6%">
+            <div class="project_duration">
+                <span class="project_month">{{ p.start_date|date:'b'|upper }}</span><br>
+                <span class="project_year">{{ p.start_date|date:'Y' }}</span><br>
+                <div class="project_to"></div>
+                <span class="project_month">{{ p.end_date|date:'b'|upper }}</span>
+                <span class="project_year">{{ p.end_date|date:'Y' }}</span>
+            </div>
+        </td>
+        <td class="01 c1" style="width: 72%">
+            <div class="project_upperborder"></div>
+        </td>
+        <td class="02 c2" style="width: 22%">
+        </td>
+    </tr>
+    <tr class="r1">
+        <td class="10 c0">
+            <div class="project_leftborder"></div>
+        </td>
+        <td class="11 c1">
+            <div class="project_main">
+                <div class="project_title">
+                    <span>{{ p.title }}</span>
+                </div>
+                <p class="project_abstract">
+                    {{ p.abstract|safe }}
+                </p>
+            </div>
+        </td>
+        <td class="12 c2">
+            <div class="project_pic"></div>
+            <div class="project_tech">TECH: {{ p.tech.all|join:", " }}
+                <div class="project_techborder"></div>
+            </div>
+        </td>
+    </tr>
+    <tr class="r2">
+        <td class="20 c0">
+            <div class="project_lowerleftborder"></div>
+        </td>
+        <td class="21 c1">
+            <div class="project_lang">LANG: {{ p.langs.all|join:", " }}</div>
+        </td>
+        <td class="22 c2">
+            <div class="project_team">
+                TEAM: {{ p.team.all|join:", " }}
+                <div class="project_teamborder"></div>
+            </div>
+        </td>
+    </tr>
+</table>
+{% endfor %}

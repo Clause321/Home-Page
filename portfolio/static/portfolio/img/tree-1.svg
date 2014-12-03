@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="360px" height="484px" viewBox="0 0 360 484" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-9" sketch:type="MSArtboardGroup">
+            <g id="Group-12" sketch:type="MSLayerGroup">
+                <g id="Rectangle-4-+-Rectangle-3" transform="translate(127.000000, 217.000000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-4" fill="#C66842" x="0" y="114" width="54" height="153"></rect>
+                    <rect id="Rectangle-3" fill="#734C2F" x="53" y="114" width="54" height="153"></rect>
+                    <path d="M0,21 L0,161.189453 C0,161.189453 17.8567921,169.106093 27,169.523438 C35.8567921,169.927708 54,163.654297 54,163.654297 L54,21 C54,21 1.02303876e-15,-26.3378906 0,21 Z" id="Rectangle-4" fill="#734C2F"></path>
+                </g>
+                <path d="M180,0 C80.588745,0 0,80.588745 0,180 L270,180 L180,180 L180,-7.10542736e-15 Z" id="Oval-38" fill="#417505" sketch:type="MSShapeGroup"></path>
+                <path d="M270,0 C170.588745,0 90,80.588745 90,180 L360,180 L270,180 L270,-7.10542736e-15 Z" id="Oval-45" fill="#679619" sketch:type="MSShapeGroup" transform="translate(225.000000, 90.000000) scale(-1, 1) translate(-225.000000, -90.000000) "></path>
+                <path d="M180,180 C80.588745,180 0,260.588745 0,360 L270,360 L180,360 L180,180 Z" id="Oval-41" fill="#C3E489" sketch:type="MSShapeGroup" transform="translate(135.000000, 270.000000) scale(1, -1) translate(-135.000000, -270.000000) "></path>
+                <path d="M270,180 C170.588745,180 90,260.588745 90,360 L360,360 L270,360 L270,180 Z" id="Oval-44" fill="#417505" sketch:type="MSShapeGroup" transform="translate(225.000000, 270.000000) scale(-1, -1) translate(-225.000000, -270.000000) "></path>
+                <path d="M180,60 C113.72583,60 60,113.72583 60,180 L240,180 L180,180 L180,60 Z" id="Oval-39" fill="#8FBA46" sketch:type="MSShapeGroup"></path>
+                <path d="M180,180 C113.72583,180 60,233.72583 60,300 L240,300 L180,300 L180,180 Z" id="Oval-42" fill="#97D058" sketch:type="MSShapeGroup" transform="translate(150.000000, 240.000000) scale(1, -1) translate(-150.000000, -240.000000) "></path>
+                <path d="M240,180 C173.72583,180 120,233.72583 120,300 L300,300 L240,300 L240,180 Z" id="Oval-46" fill="#679619" sketch:type="MSShapeGroup" transform="translate(210.000000, 240.000000) scale(-1, -1) translate(-210.000000, -240.000000) "></path>
+                <path d="M240,60 C173.72583,60 120,113.72583 120,180 L300,180 L240,180 L240,60 Z" id="Oval-47" fill="#557223" sketch:type="MSShapeGroup" transform="translate(210.000000, 120.000000) scale(-1, 1) translate(-210.000000, -120.000000) "></path>
+                <path d="M180,120 C146.862915,120 120,146.862915 120,180 L210,180 L180,180 L180,120 Z" id="Oval-40" fill="#417505" sketch:type="MSShapeGroup"></path>
+                <path d="M210,120 C176.862915,120 150,146.862915 150,180 L240,180 L210,180 L210,120 Z" id="Oval-48" fill="#8FBA46" sketch:type="MSShapeGroup" transform="translate(195.000000, 150.000000) scale(-1, 1) translate(-195.000000, -150.000000) "></path>
+                <path d="M210,180 C176.862915,180 150,206.862915 150,240 L240,240 L210,240 L210,180 Z" id="Oval-49" fill="#8FBA46" sketch:type="MSShapeGroup" transform="translate(195.000000, 210.000000) scale(-1, -1) translate(-195.000000, -210.000000) "></path>
+                <path d="M180,180 C146.862915,180 120,206.862915 120,240 L210,240 L180,240 L180,180 Z" id="Oval-43" fill="#679619" sketch:type="MSShapeGroup" transform="translate(165.000000, 210.000000) scale(1, -1) translate(-165.000000, -210.000000) "></path>
+                <circle id="Oval-67" fill="#62300B" sketch:type="MSShapeGroup" cx="181.5" cy="410.5" r="31.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

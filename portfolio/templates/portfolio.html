@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+{% load staticfiles %}
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/portfolio.css' %}">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+</head>
+
+<body>
+	<div class="header">
+
+	</div>
+	<div class="navi">
+		<div class="navi_container">
+			<div class="navi_center">
+				<li><a href="">ABOUT ME</a></li>
+				<li class="navi_selected"><a href="">PORTFOLIO</a></li>
+				<li><a href="">BLOG</a></li>
+			</div>
+			<div class="navi_home"><img src=""></div>
+		</div>
+	</div>
+	<div class="container">
+
+		<div id="catlog" class="unfixed">
+			<div id="catlog_w">CATLOG</div>
+			<div id="catlog_web" class="catlog_x">
+				<a class="catlog_wrapper" href="#jump_web">
+					<div class="catlog_left">[</div>
+					<div class="catlog_middle">WEB</div>
+					<div class="catlog_right">]</div>
+				</a>
+			</div>
+			<div id="catlog_android" class="catlog_x">
+				<a class="catlog_wrapper" href="#jump_android">
+					<div class="catlog_left">[</div>
+					<div class="catlog_middle">ANDROID</div>
+					<div class="catlog_right">]</div>
+				</a>
+			</div>
+			<div id="catlog_embedded_system" class="catlog_x">
+				<a class="catlog_wrapper" href="#jump_embedded_system">
+					<div class="catlog_left">[</div>
+					<div class="catlog_middle">
+						<span>EMBEDDED</span>
+						<span>SYSTEM</span>
+					</div>
+					<div class="catlog_right">]</div>
+				</a>
+			</div>
+		</div>
+
+        {% load project_tags %}
+		<div id="project_container">
+			<div class="project_section">
+				<h2 id="jump_web">WEB</h2>
+				{% show_projects web_projects %}
+			</div>
+			
+			<div class="project_section">
+				<h2 id="jump_android">ANDROID</h2>
+                {% show_projects android_projects %}
+			</div>
+			
+			<div class="project_section">
+				<h2 id="jump_embedded_system">EMBEDDED SYSTEM</h2>
+				{% show_projects embedded_projects %}
+			</div>
+		</div>
+
+		<div id="progress_container">
+			<div id="progress_bar" class="unfixed">
+				<div id="progress_left_block"></div>
+				<div id="progress_right_block"></div>
+				<div id="progress_long_bar" class="grab">
+					<svg height="100%" width="100%">
+						<line x1="0" y1="75%" x2="424" y2="75%" style="stroke:rgb(65, 117, 5);stroke-width:2" />
+						<line x1="424" y1="75%" x2="100%" y2="75%" style="stroke:rgb(143, 186, 70);stroke-width:2" />
+					</svg>
+					
+					
+					<div class="progress_tree_wrapper">
+					    {% show_trees trees13 %}
+						<!--
+						/////
+						-->
+						<li class="progress_year_tree">
+							<div class="progress_wrapper">
+								<div class="progress_pic">
+									<div>2014</div>
+									<img src="tree-0.png" />
+								</div>
+							</div>
+						</li>
+						{% show_trees trees14 %}
+					</div>
+				</div>
+			</div>
+		</div>
+			
+	</div>
+
+	<div id="footer">This is the footer</div>
+
+	<script type="text/javascript" src="{% static 'portfolio/js/portfolio.js' %}"></script>
+</body>

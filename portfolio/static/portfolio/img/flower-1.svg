@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="290px" height="399px" viewBox="0 0 290 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-16" sketch:type="MSArtboardGroup">
+            <g id="Group-12" sketch:type="MSLayerGroup">
+                <g id="Group-11" transform="translate(0.000000, 84.000000)" sketch:type="MSShapeGroup">
+                    <path d="M60,0 C26.862915,0 0,26.862915 0,60 L90,60 L60,60 L60,-6.66133815e-16 Z" id="Oval-53" fill="#D7332A"></path>
+                    <path d="M90,0 C56.862915,0 30,26.862915 30,60 L120,60 L90,60 L90,-6.66133815e-16 Z" id="Oval-50" fill="#FE5B46" transform="translate(75.000000, 30.000000) scale(-1, 1) translate(-75.000000, -30.000000) "></path>
+                    <path d="M90,60 C56.862915,60 30,86.862915 30,120 L120,120 L90,120 L90,60 Z" id="Oval-51" fill="#FF856E" transform="translate(75.000000, 90.000000) scale(-1, -1) translate(-75.000000, -90.000000) "></path>
+                    <path d="M60,60 C26.862915,60 0,86.862915 0,120 L90,120 L60,120 L60,60 Z" id="Oval-52" fill="#FF856E" transform="translate(45.000000, 90.000000) scale(1, -1) translate(-45.000000, -90.000000) "></path>
+                </g>
+                <g id="Group-23" transform="translate(0.000000, 84.000000)" sketch:type="MSShapeGroup">
+                    <path d="M60,0 C26.862915,0 0,26.862915 0,60 L90,60 L60,60 L60,-6.66133815e-16 Z" id="Oval-53" fill="#D7332A"></path>
+                    <path d="M90,0 C56.862915,0 30,26.862915 30,60 L120,60 L90,60 L90,-6.66133815e-16 Z" id="Oval-50" fill="#FE5B46" transform="translate(75.000000, 30.000000) scale(-1, 1) translate(-75.000000, -30.000000) "></path>
+                    <path d="M90,60 C56.862915,60 30,86.862915 30,120 L120,120 L90,120 L90,60 Z" id="Oval-51" fill="#FF856E" transform="translate(75.000000, 90.000000) scale(-1, -1) translate(-75.000000, -90.000000) "></path>
+                    <path d="M60,60 C26.862915,60 0,86.862915 0,120 L90,120 L60,120 L60,60 Z" id="Oval-52" fill="#FF856E" transform="translate(45.000000, 90.000000) scale(1, -1) translate(-45.000000, -90.000000) "></path>
+                </g>
+                <g id="Group-21" transform="translate(83.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <path d="M60,0 C26.862915,0 0,26.862915 0,60 L90,60 L60,60 L60,-6.66133815e-16 Z" id="Oval-53" fill="#FF856E"></path>
+                    <path d="M90,0 C56.862915,0 30,26.862915 30,60 L120,60 L90,60 L90,-6.66133815e-16 Z" id="Oval-50" fill="#FF5B47" transform="translate(75.000000, 30.000000) scale(-1, 1) translate(-75.000000, -30.000000) "></path>
+                    <path d="M90,60 C56.862915,60 30,86.862915 30,120 L120,120 L90,120 L90,60 Z" id="Oval-51" fill="#FF5B47" transform="translate(75.000000, 90.000000) scale(-1, -1) translate(-75.000000, -90.000000) "></path>
+                    <path d="M60,60 C26.862915,60 0,86.862915 0,120 L90,120 L60,120 L60,60 Z" id="Oval-52" fill="#D7332A" transform="translate(45.000000, 90.000000) scale(1, -1) translate(-45.000000, -90.000000) "></path>
+                </g>
+                <g id="Group-22" transform="translate(170.000000, 84.000000)" sketch:type="MSShapeGroup">
+                    <path d="M60,0 C26.862915,0 0,26.862915 0,60 L90,60 L60,60 L60,-6.66133815e-16 Z" id="Oval-53" fill="#FF856E"></path>
+                    <path d="M90,0 C56.862915,0 30,26.862915 30,60 L120,60 L90,60 L90,-6.66133815e-16 Z" id="Oval-50" fill="#F24837" transform="translate(75.000000, 30.000000) scale(-1, 1) translate(-75.000000, -30.000000) "></path>
+                    <path d="M90,60 C56.862915,60 30,86.862915 30,120 L120,120 L90,120 L90,60 Z" id="Oval-51" fill="#D8332A" transform="translate(75.000000, 90.000000) scale(-1, -1) translate(-75.000000, -90.000000) "></path>
+                    <path d="M60,60 C26.862915,60 0,86.862915 0,120 L90,120 L60,120 L60,60 Z" id="Oval-52" fill="#F24836" transform="translate(45.000000, 90.000000) scale(1, -1) translate(-45.000000, -90.000000) "></path>
+                </g>
+                <path d="M133,297 C133,353.333044 87.3330445,399 31,399 C31,342.666956 76.6669555,297 133,297 Z" id="Oval-6" fill="#679619" sketch:type="MSShapeGroup" transform="translate(82.000000, 348.000000) scale(-1, 1) translate(-82.000000, -348.000000) "></path>
+                <path d="M253,297 C253,353.333044 207.333044,399 151,399 C151,342.666956 196.666956,297 253,297 Z" id="Oval-7" fill="#417505" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-425" fill="#8FBA46" sketch:type="MSShapeGroup" x="133" y="144" width="20" height="255"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
