@@ -26,13 +26,13 @@ class Project(models.Model):
     end_date = models.DateField(blank=True)
     inprogress = models.BooleanField(default=False)
     abstract = UEditorField(u'abstract', toolbars="full",
-                 imagePath="image/abstract/", filePath="file/abstract/", width=1000,
+                 imagePath="image/abstract/", filePath="file/abstract/", width=667,
                  upload_settings={"imageMaxSize":1024000},
                  settings={},command=None,
                  blank=True)
     ifdetail = models.BooleanField(default=False)
     detail = UEditorField(u'detail', toolbars="full",
-                 imagePath="image/detail/", filePath="file/detail/", width=1000,
+                 imagePath="image/detail/", filePath="file/detail/", width=1200,
                  upload_settings={"imageMaxSize":1024000},
                  settings={},command=None,
                  blank=True)
