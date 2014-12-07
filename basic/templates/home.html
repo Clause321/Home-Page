@@ -1,0 +1,54 @@
+{% load static %}
+{% load slide_tags %}
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{% static 'basic/css/home.css' %}">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+</head>
+
+<body>
+	<div class="header">
+		<div id="floatblock">
+		    <h1>LIBER</h1>
+
+		    <h4>PRIMUS</h4>
+		    <p>Lorem iqsum quia dolor sit amet, consectetur</p>
+		</div>
+	</div>
+	<div class="navi block block_odd">
+		<div class="navi_container">
+			<div class="navi_center">
+				<li><a href="" class="nolink">ABOUT ME</a></li>
+				<li><a href="/portfolio/">PORTFOLIO</a></li>
+				<li><a href="" class="nolink">BLOG</a></li>
+			</div>
+			<div class="navi_home"><img src=""></div>
+		</div>
+	</div>
+
+	<div class="block block_even">
+		<div class="slide_container">
+			<div id="slide-leftcontainer">
+				<div id = "slide-pic">
+				    {% show_pics slides %}
+				</div>
+				<div id = "slide-lowerbar">
+				    {% show_lowerbars slides %}
+				</div>
+			</div>
+
+			<div id="slide-midpointer">
+			</div>
+			
+			<div id="slide-sidebar">
+			    {% show_siderbars slides %}
+			</div>
+		</div>
+	</div>
+	
+
+	<script type="text/javascript" src="{% static 'basic/js/slide.js' %}"></script>
+</body>
+</html>

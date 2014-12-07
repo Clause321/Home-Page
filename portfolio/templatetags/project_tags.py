@@ -36,3 +36,7 @@ def show_projects(projects):
 @register.inclusion_tag('_trees.html')
 def show_trees(trees):
     return {'trees': trees}
+
+@register.inclusion_tag('_navi.html')
+def show_navi():
+    pass

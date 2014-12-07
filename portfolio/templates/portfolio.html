@@ -1,5 +1,6 @@
-<!DOCTYPE HTML>
 {% load staticfiles %}
+{% load project_tags %}
+<!DOCTYPE HTML>
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -9,19 +10,7 @@
 </head>
 
 <body>
-	<div class="header">
-
-	</div>
-	<div class="navi">
-		<div class="navi_container">
-			<div class="navi_center">
-				<li><a href="">ABOUT ME</a></li>
-				<li class="navi_selected"><a href="">PORTFOLIO</a></li>
-				<li><a href="">BLOG</a></li>
-			</div>
-			<div class="navi_home"><img src=""></div>
-		</div>
-	</div>
+    {% show_navi %}
 	<div class="container">
 
 		<div id="catlog" class="unfixed">
@@ -52,7 +41,6 @@
 			</div>
 		</div>
 
-        {% load project_tags %}
 		<div id="project_container">
 			<div class="project_section">
 				<h2 id="jump_web">WEB</h2>
@@ -70,11 +58,11 @@
 			</div>
 		</div>
 
-		<div id="progress_container">
-			<div id="progress_bar" class="unfixed">
-				<div id="progress_left_block"></div>
-				<div id="progress_right_block"></div>
-				<div id="progress_long_bar" class="grab">
+		<div id="progress_container" style="width:{{ w_more }}px;margin-right:-{{ w_sides }}px">
+			<div id="progress_bar" class="unfixed" style="width:{{ w_more }}px;margin-right:-{{ w_sides }}px">
+				<div id="progress_left_block" style="width:{{ w_sides }}px"></div>
+				<div id="progress_right_block" style="width:{{ w_sides }}px"></div>
+				<div id="progress_long_bar" class="grab" style="width:{{ w_full }}px;left:{{ w_sides }}px">
 					<svg height="100%" width="100%">
 						<line x1="0" y1="75%" x2="424" y2="75%" style="stroke:rgb(65, 117, 5);stroke-width:2" />
 						<line x1="424" y1="75%" x2="100%" y2="75%" style="stroke:rgb(143, 186, 70);stroke-width:2" />

@@ -1,0 +1,7 @@
+{% for s in slides %}
+<li data-n= {{ forloop.counter0 }} class="side-list">
+    <span class="slide-title">{{ s.project.title }}</span>
+    <br>
+    <span class="slide-keywords">{{ s.keywords }}</span>
+</li>
+{% endfor %}

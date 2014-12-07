@@ -1,0 +1,11 @@
+{% for s in slides %}
+    {% if forloop.last %}
+<li>
+    {% else %}
+<li hidden="true">
+    {% endif %}
+    <span class="slide-title">{{ s.project.title }}</span>
+    <br>
+    <span class="slide-keywords">{{ s.keywords }}</span>
+</li>
+{% endfor %}

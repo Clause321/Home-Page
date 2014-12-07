@@ -1,0 +1,15 @@
+{% for s in slides %}
+    {% if forloop.last %}
+<li>
+    {% else %}
+<li hidden="true">
+    {% endif %}
+    {% if s.project.ifdetail %}
+    <a href="/portfolio/{{ s.project.id }}/detail/">
+        <img src="/media/{{ s.front_image }}">
+    </a>
+    {% else %}
+    <img src="/media/{{ s.front_image }}">
+    {% endif %}
+</li>
+{% endfor %}

@@ -1,0 +1,21 @@
+{% load staticfiles %}
+{% load project_tags %}
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/portfolio.css' %}">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+</head>
+
+<body>
+    {% show_navi %}
+    <div class="container">
+        <h1>{{ project.title }}</h1>
+        {{ project.detail | safe }}
+    </div>
+    
+</body>
+</html>
+

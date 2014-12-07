@@ -23,7 +23,11 @@
         <td class="11 c1">
             <div class="project_main">
                 <div class="project_title">
+                    {% if p.ifdetail %}
+                    <span><a href="{{ p.id }}/detail/">{{ p.title }}</a></span>
+                    {% else %}
                     <span>{{ p.title }}</span>
+                    {% endif %}
                 </div>
                 <p class="project_abstract">
                     {{ p.abstract|safe }}

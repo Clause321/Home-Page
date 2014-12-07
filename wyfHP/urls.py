@@ -1,5 +1,5 @@
 from django.conf.urls import patterns, include, url
-
+import settings
 from django.contrib import admin
 admin.autodiscover()
 
@@ -9,5 +9,12 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^portfolio', 'portfolio.views.portfolio')
+    url(r'^portfolio/$', 'portfolio.views.portfolio'),
+    url(r'^portfolio/(?P<i>\d)/detail/$', 'portfolio.views.show'),
+    url(r'^$', 'basic.views.home'),
 )
+
+if settings.DEBUG:
+    urlpatterns += patterns('',
+        (r'^media/(?P<path>.*)$', 'django.views.static.serve', {
+        'document_root': settings.MEDIA_ROOT}))

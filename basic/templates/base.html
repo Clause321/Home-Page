@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'basic/css/base.css' %}">
+    <title>{% block title %}WYF homepage{% endblock %}</title>
+    {% block header %}{% block header %}
+</head>
+<body>
+    {% block content %}{% endblock %}
+    <div id="footer">
+        <div class="container">
+            <span>Copyright &copy; 2014 (Wang, Yingfei), (Yin, Yifei).</span>
+            <span>This site is managed using Django. Front-to-end written by me.</span>
+            <span>Designed by (Yin, Yifei)</span>
+        </div>
+    </div>
+    {% block footer %}{% endblock %}
+</body>
+</html>

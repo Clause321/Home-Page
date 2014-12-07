@@ -24,12 +24,13 @@ class Project(models.Model):
     title = models.CharField(max_length=127)
     start_date = models.DateField()
     end_date = models.DateField(blank=True)
-    inprogress = models.BooleanField(default = False)
+    inprogress = models.BooleanField(default=False)
     abstract = UEditorField(u'abstract', toolbars="full",
                  imagePath="image/abstract/", filePath="file/abstract/", width=1000,
                  upload_settings={"imageMaxSize":1024000},
                  settings={},command=None,
                  blank=True)
+    ifdetail = models.BooleanField(default=False)
     detail = UEditorField(u'detail', toolbars="full",
                  imagePath="image/detail/", filePath="file/detail/", width=1000,
                  upload_settings={"imageMaxSize":1024000},
@@ -39,6 +40,7 @@ class Project(models.Model):
     langs = models.ManyToManyField(Lang, blank=True)
     team = models.ManyToManyField(Team, blank=True)
     tree = models.ForeignKey(Tree, blank=True, null=True)
+#     front_image = models.ImageField(upload_to='image/front/', blank=True, null=True)
  
     def __str__(self):
         return self.title
@@ -48,4 +50,3 @@ class Project(models.Model):
         if not self.inprogress:
             self.tree = Tree.objects.get(date=self.end_date)
         return models.Model.save(self, force_insert=force_insert, force_update=force_update, using=using, update_fields=update_fields)
-     
