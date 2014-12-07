@@ -4,23 +4,6 @@ body, html{
 	margin: 0;
 }
 
-.block{
-	border-bottom: 2px solid #dce0e0;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	display: block;
-	float: left;
-	width: 100%;
-}
-
-.block_odd{
-	background-color: #f5f5f5;
-}
-
-.block_even{
-	background-color: white;
-}
-
 .header{
 	float: left;
 	width: 100%;
@@ -97,8 +80,13 @@ body, html{
     text-align: center;
 }
 
+.block{
+    padding: 0px;
+}
+
 .container{
 	padding-top: 44px;
+	padding-bottom: 0px;
 	width: 1200px;
 	margin: auto;
 	//height: 100%;
@@ -519,11 +507,8 @@ table div{
 }
 
 #footer{
-	background-color: white;
 	position: relative;
 	width: 100%;
-	height: 100px;
-	float: left;
 	z-index: 3;
 }
 

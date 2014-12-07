@@ -4,23 +4,6 @@ body, html{
 	margin: 0;
 }
 
-.block{
-	border-bottom: 2px solid #dce0e0;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	display: block;
-	float: left;
-	width: 100%;
-}
-
-.block_odd{
-	background-color: #f5f5f5;
-}
-
-.block_even{
-	background-color: white;
-}
-
 .header {
 	height: 600px;
 	width: 100%;
