@@ -29,22 +29,27 @@ body, html{
 
 #floatblock h1 {
 	margin: 0;
+	font-size: 32px;
 }
 
 #floatblock h3 {
 	font-weight: normal;
+	font-size: 19px;
 }
 
 #floatblock h5{
     margin: 0;
+    font-size: 14px;
 }
 
 #floatblock .major{
     margin-top: 30px;
+    font-size: 16px;
 }
 
 #floatblock .interest{
     margin: 0;
+    font-size: 16px;
 }
 
 .navi{
