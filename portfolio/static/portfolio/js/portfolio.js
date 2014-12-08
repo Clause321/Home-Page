@@ -9,12 +9,6 @@
        	el2Height = progress.height(),
        	state = 0,
        	$this;
-       	
-    $(".progress_pic img").each(function(){
-        $this = $(this);
-        $this.width($this.width() * 0.12);
-        $this.css({left: (76 - $this.width()) / 2});
-    });
 
     cats.each(function(index) {
     	 /* iterate through array or object */
