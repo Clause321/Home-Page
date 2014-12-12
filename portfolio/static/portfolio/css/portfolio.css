@@ -206,7 +206,7 @@ table div{
 	border-right-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
-	line-height: 14px;
+	line-height: 12px;
 	float: right;
 }
 
@@ -222,7 +222,7 @@ table div{
 
 .project_year{
     font-size: 9px;
-	line-height: 14px;
+	line-height: 9px;
 }
 
 .project_to{
