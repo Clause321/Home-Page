@@ -285,16 +285,17 @@ table div{
 .project_title{
 	width: 100%;
 	margin-bottom: 0.6em;
-	font-size: 20px;
+	font-size: 27px;
 }
 
 .project_abstract{
 	width: 100%;
 	margin: 0px;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .project_pic{
+    position: absolute;
     width: 100%;
     display: block;
     float: left;
@@ -313,6 +314,7 @@ table div{
 	padding-left: 4px;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
+	font-size: 16px;
 }
 
 .project_techborder{
@@ -327,6 +329,7 @@ table div{
 .project_lang{
 	padding-right: 4px;
 	float: right;
+	font-size: 16px;
 }
 
 .project_team{
@@ -334,6 +337,7 @@ table div{
 	position: relative;
 	//border-left-style: solid;
 	//border-left-width: 1px;
+	font-size: 16px;
 }
 
 .project_teamborder{
