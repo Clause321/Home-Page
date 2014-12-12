@@ -206,8 +206,7 @@ table div{
 	border-right-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
-	line-height: 0.6em;
-	font-size: 1.2em;
+	line-height: 14px;
 	float: right;
 }
 
@@ -217,11 +216,13 @@ table div{
 }
 
 .project_month{
-	font-size: 0.8em;
+    font-size: 18px;
+	line-height: 14px;
 }
 
 .project_year{
-	font-size: 0.5em;
+    font-size: 9px;
+	line-height: 14px;
 }
 
 .project_to{
@@ -230,7 +231,7 @@ table div{
 	margin-bottom: 0.1em;
 	border-left-style: solid;
 	border-left-width: 1px;
-	height: 0.4em;
+	height: 10px;
 }
 
 .project_upperborder{
@@ -266,23 +267,43 @@ table div{
 .project_main{
 	top: 0px;
 	width: 97.5%;
-	border-bottom-style: solid;
-	border-bottom-width: 1px;
+	height: 100%;
 	padding-left: 1.5%;
 	padding-right: 1%;
 	padding-top: 1.5%;
 	padding-bottom: 2%;
 }
 
+.main_border{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
 .project_title{
 	width: 100%;
 	margin-bottom: 0.6em;
-	font-size: 1.3em;
+	font-size: 20px;
 }
 
 .project_abstract{
 	width: 100%;
 	margin: 0px;
+	font-size: 16px;
+}
+
+.project_pic{
+    width: 100%;
+    display: block;
+    float: left;
+    top: 0;
+}
+
+.project_pic img{
+    width: 100%;
+    float: left;
 }
 
 .project_tech{

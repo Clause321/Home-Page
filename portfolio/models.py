@@ -40,6 +40,7 @@ class Project(models.Model):
     langs = models.ManyToManyField(Lang, blank=True)
     team = models.ManyToManyField(Team, blank=True)
     tree = models.ForeignKey(Tree, blank=True, null=True)
+    side_image = models.ImageField(upload_to='image/side/', null=True)
 #     front_image = models.ImageField(upload_to='image/front/', blank=True, null=True)
  
     def __str__(self):

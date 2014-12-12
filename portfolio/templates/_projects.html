@@ -29,13 +29,18 @@
                     <span>{{ p.title }}</span>
                     {% endif %}
                 </div>
-                <p class="project_abstract">
+                <div class="project_abstract">
                     {{ p.abstract|safe }}
-                </p>
+                </div>
             </div>
+            <div class="main_border"></div>
         </td>
         <td class="12 c2">
-            <div class="project_pic"></div>
+            <div class="project_pic">
+                {% if p.side_image %}
+                <img src="/media/{{ p.side_image }}">
+                {% endif %}
+            </div>
             <div class="project_tech">TECH: {{ p.tech.all|join:", " }}
                 <div class="project_techborder"></div>
             </div>
