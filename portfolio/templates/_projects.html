@@ -41,8 +41,8 @@
                 <img src="/media/{{ p.side_image }}">
                 {% endif %}
             </div>
-            <div class="project_tech">TECH: {{ p.tech.all|join:", " }}
-                <div class="project_techborder"></div>
+            <div class="project_lang">LANG: {{ p.langs.all|join:", " }}
+                <div class="project_langborder"></div>
             </div>
         </td>
     </tr>
@@ -51,7 +51,7 @@
             <div class="project_lowerleftborder"></div>
         </td>
         <td class="21 c1">
-            <div class="project_lang">LANG: {{ p.langs.all|join:", " }}</div>
+            <div class="project_tech">TECH: {{ p.tech.all|join:", " }}</div>
         </td>
         <td class="22 c2">
             <div class="project_team">

@@ -311,7 +311,7 @@ table div{
     float: left;
 }
 
-.project_tech{
+.project_lang{
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
@@ -321,7 +321,7 @@ table div{
 	font-size: 16px;
 }
 
-.project_techborder{
+.project_langborder{
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
@@ -330,7 +330,7 @@ table div{
 	border-left-width: 1px;
 }
 
-.project_lang{
+.project_tech{
 	padding-right: 4px;
 	float: right;
 	font-size: 16px;
