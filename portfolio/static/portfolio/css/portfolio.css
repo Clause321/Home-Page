@@ -294,6 +294,10 @@ table div{
 	font-size: 18px;
 }
 
+.project_abstract p{
+    margin: 0;
+}
+
 .project_pic{
     position: absolute;
     width: 100%;
