@@ -4,8 +4,13 @@
     {% else %}
 <li hidden="true">
     {% endif %}
+    
     {% if s.project.ifdetail %}
     <a href="/portfolio/{{ s.project.id }}/detail/">
+        <img src="/media/{{ s.front_image }}">
+    </a>
+    {% elif s.project.type == 'dummy' %}
+    <a href="https://github.com/Clause321">
         <img src="/media/{{ s.front_image }}">
     </a>
     {% else %}
