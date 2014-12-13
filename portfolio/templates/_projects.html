@@ -6,8 +6,13 @@
                 <span class="project_month">{{ p.start_date|date:'b'|upper }}</span><br>
                 <span class="project_year">{{ p.start_date|date:'Y' }}</span><br>
                 <div class="project_to"></div>
+                {% if p.inprogress %}
+                <span class="project_month">NOW</span>
+                <span class="project_year">&nbsp;</span>
+                {% else %}
                 <span class="project_month">{{ p.end_date|date:'b'|upper }}</span>
                 <span class="project_year">{{ p.end_date|date:'Y' }}</span>
+                {% endif %}
             </div>
         </td>
         <td class="01 c1" style="width: 72%">
